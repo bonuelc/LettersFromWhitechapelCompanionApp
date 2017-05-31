@@ -36,4 +36,12 @@ extension Map {
         let location1 = self[locationID1], location2 = self[locationID2]
         addEdge(between: location1, and: location2)
     }
+    
+    fileprivate func addEdges(from sourceID: ID, to destinationIDs: ID...) {
+        // where clause prevents duplicate edges to guard against
+        // human error in manual map building
+        for destinationID in destinationIDs where sourceID < destinationID {
+            addEdge(between: sourceID, and: destinationID)
+        }
+    }
 }
