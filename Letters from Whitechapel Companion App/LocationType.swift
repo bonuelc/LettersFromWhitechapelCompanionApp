@@ -8,5 +8,9 @@
 
 import Foundation
 
+typealias ID = Int
+
 protocol LocationType: class {
+    // MARK: - Properties
+    var id: ID { get }
 }
