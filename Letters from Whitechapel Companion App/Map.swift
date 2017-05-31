@@ -17,6 +17,11 @@ class Map {
     
     // MARK: - Init
     private init() {}
+    
+    // MARK: - Methods
+    fileprivate func addEdge(between a: LocationType, and b: LocationType) {
+        a.add(neighbor: b)
+    }
 }
 
 // MARK: - Helper Methods
