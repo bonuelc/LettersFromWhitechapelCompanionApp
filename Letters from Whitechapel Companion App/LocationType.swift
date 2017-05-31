@@ -11,7 +11,11 @@ import Foundation
 typealias ID = Int
 
 protocol LocationType: class {
+    
     // MARK: - Properties
     var id: ID { get }
     var neighbors: [LocationType] { get set }
+    
+    // MARK: - Methods
+    func add(neighbor: LocationType)
 }
