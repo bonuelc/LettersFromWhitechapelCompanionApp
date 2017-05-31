@@ -33,6 +33,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		853112BC1EDF72F900AC8E99 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		853112BD1EDF732100AC8E99 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = ViewModels;
+			sourceTree = "<group>";
+		};
+		853112BE1EDF733500AC8E99 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
 		857F6D8B1ED33B4200F8B0FB = {
 			isa = PBXGroup;
 			children = (
@@ -52,6 +73,9 @@
 		857F6D961ED33B4800F8B0FB /* Letters from Whitechapel Companion App */ = {
 			isa = PBXGroup;
 			children = (
+				853112BE1EDF733500AC8E99 /* Views */,
+				853112BD1EDF732100AC8E99 /* ViewModels */,
+				853112BC1EDF72F900AC8E99 /* Models */,
 				857F6D971ED33B4800F8B0FB /* AppDelegate.swift */,
 				857F6D991ED33B4800F8B0FB /* ViewController.swift */,
 				857F6D9E1ED33B4900F8B0FB /* Assets.xcassets */,
