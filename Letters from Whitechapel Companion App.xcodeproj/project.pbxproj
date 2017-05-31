@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		853112C01EDF757100AC8E99 /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853112BF1EDF757100AC8E99 /* LocationType.swift */; };
+		853112C21EDF774100AC8E99 /* Circle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853112C11EDF774100AC8E99 /* Circle.swift */; };
 		857F6D981ED33B4800F8B0FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F6D971ED33B4800F8B0FB /* AppDelegate.swift */; };
 		857F6D9A1ED33B4800F8B0FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F6D991ED33B4800F8B0FB /* ViewController.swift */; };
 		857F6D9F1ED33B4900F8B0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857F6D9E1ED33B4900F8B0FB /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 
 /* Begin PBXFileReference section */
 		853112BF1EDF757100AC8E99 /* LocationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationType.swift; sourceTree = "<group>"; };
+		853112C11EDF774100AC8E99 /* Circle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Circle.swift; sourceTree = "<group>"; };
 		857F6D941ED33B4800F8B0FB /* Letters from Whitechapel Companion App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Letters from Whitechapel Companion App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		857F6D971ED33B4800F8B0FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		857F6D991ED33B4800F8B0FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -39,6 +41,7 @@
 			isa = PBXGroup;
 			children = (
 				853112BF1EDF757100AC8E99 /* LocationType.swift */,
+				853112C11EDF774100AC8E99 /* Circle.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				857F6D9A1ED33B4800F8B0FB /* ViewController.swift in Sources */,
+				853112C21EDF774100AC8E99 /* Circle.swift in Sources */,
 				853112C01EDF757100AC8E99 /* LocationType.swift in Sources */,
 				857F6D981ED33B4800F8B0FB /* AppDelegate.swift in Sources */,
 			);
