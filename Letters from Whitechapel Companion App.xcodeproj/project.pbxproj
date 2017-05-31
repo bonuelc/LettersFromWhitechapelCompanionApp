@@ -50,6 +50,7 @@
 		853112BE1EDF733500AC8E99 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				857F6D991ED33B4800F8B0FB /* ViewController.swift */,
 			);
 			name = Views;
 			sourceTree = "<group>";
@@ -77,7 +78,6 @@
 				853112BD1EDF732100AC8E99 /* ViewModels */,
 				853112BC1EDF72F900AC8E99 /* Models */,
 				857F6D971ED33B4800F8B0FB /* AppDelegate.swift */,
-				857F6D991ED33B4800F8B0FB /* ViewController.swift */,
 				857F6D9E1ED33B4900F8B0FB /* Assets.xcassets */,
 				857F6DA01ED33B4900F8B0FB /* LaunchScreen.storyboard */,
 				857F6DA31ED33B4900F8B0FB /* Info.plist */,
