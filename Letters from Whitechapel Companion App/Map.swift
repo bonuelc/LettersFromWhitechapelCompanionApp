@@ -26,8 +26,14 @@ class Map {
 
 // MARK: - Helper Methods
 extension Map {
+    
     subscript(index: Int) -> LocationType {
         // Map is one-based to mirror board game
         return locations[index - 1]
+    }
+    
+    fileprivate func addEdge(between locationID1: ID, and locationID2: ID) {
+        let location1 = self[locationID1], location2 = self[locationID2]
+        addEdge(between: location1, and: location2)
     }
 }
