@@ -15,6 +15,7 @@ protocol LocationType: class, CustomStringConvertible {
     // MARK: - Properties
     var id: ID { get }
     var neighbors: [LocationType] { get set }
+    var visited: Bool { get set }
     
     // MARK: - Methods
     func add(neighbor: LocationType)
