@@ -16,7 +16,9 @@ class Map {
     static let shared = Map()
     
     // MARK: - Init
-    private init() {}
+    private init() {
+        initNodes()
+    }
     
     // MARK: - Methods
     fileprivate func addEdge(between a: LocationType, and b: LocationType) {
@@ -43,5 +45,16 @@ extension Map {
         for destinationID in destinationIDs where sourceID < destinationID {
             addEdge(between: sourceID, and: destinationID)
         }
+    }
+}
+
+// MARK: - Initializer Helper Methods
+extension Map {
+    fileprivate func initNodes() {
+        // don't allow method to be called more than once
+        guard locations.isEmpty else { return }
+        
+        for c in 1...195 { locations.append(Circle(c)) }
+        for s in 196...429 { locations.append(Square(s)) }
     }
 }
