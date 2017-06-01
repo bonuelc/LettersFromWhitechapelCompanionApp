@@ -12,7 +12,7 @@ import XCTest
 class LettersFromWhitechapelCompanionAppTests: XCTestCase {
     func testMapCount() {
         let numberOfLocations = 429
-        XCTAssertEqual(Map.shared.count, numberOfLocations,
+        XCTAssertEqual(Map.shared.locations.count, numberOfLocations,
                        "Map should have \(numberOfLocations) locations (nodes)")
     }
 }
