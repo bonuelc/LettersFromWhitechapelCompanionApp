@@ -49,6 +49,13 @@ extension Map {
     }
 }
 
+// MARK: - CustomStringConvertible
+extension Map: CustomStringConvertible {
+    var description: String {
+        return locations.map { $0.description }.joined(separator: "\n")
+    }
+}
+
 // MARK: - Initializer Helper Methods
 extension Map {
     
