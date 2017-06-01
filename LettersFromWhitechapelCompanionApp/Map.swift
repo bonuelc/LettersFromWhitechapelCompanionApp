@@ -37,7 +37,7 @@ class Map {
     }
     
     // MARK: - Properties
-    fileprivate var locations: [LocationType] = []
+    fileprivate(set) var locations: [LocationType] = []
     static let shared = Map()
     
     // MARK: - Init
