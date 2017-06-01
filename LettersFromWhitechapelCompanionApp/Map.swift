@@ -38,6 +38,7 @@ class Map {
     
     // MARK: - Properties
     fileprivate(set) var locations: [LocationType] = []
+    private(set) var womanTokensPossibleStartingLocations: [ID] = [3, 21, 27, 65, 84, 147, 149, 158]
     static let shared = Map()
     
     // MARK: - Init
