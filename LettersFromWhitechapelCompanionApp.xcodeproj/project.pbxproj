@@ -14,6 +14,7 @@
 		857F6D9A1ED33B4800F8B0FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F6D991ED33B4800F8B0FB /* ViewController.swift */; };
 		857F6D9F1ED33B4900F8B0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857F6D9E1ED33B4900F8B0FB /* Assets.xcassets */; };
 		857F6DA21ED33B4900F8B0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857F6DA01ED33B4900F8B0FB /* LaunchScreen.storyboard */; };
+		85DD74371EE09BE000049019 /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85DD74361EE09BE000049019 /* Queue.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		857F6D9E1ED33B4900F8B0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		857F6DA11ED33B4900F8B0FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		857F6DA31ED33B4900F8B0FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85DD74361EE09BE000049019 /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				853112C51EDF78D200AC8E99 /* Map.swift */,
 				853112BF1EDF757100AC8E99 /* LocationType.swift */,
+				85DD74361EE09BE000049019 /* Queue.swift */,
 			);
 			name = Models;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				85DD74371EE09BE000049019 /* Queue.swift in Sources */,
 				857F6D9A1ED33B4800F8B0FB /* ViewController.swift in Sources */,
 				853112C01EDF757100AC8E99 /* LocationType.swift in Sources */,
 				853112C61EDF78D200AC8E99 /* Map.swift in Sources */,
@@ -421,6 +425,7 @@
 				855C17F71EE07D92007380E3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		857F6D8F1ED33B4200F8B0FB /* Build configuration list for PBXProject "LettersFromWhitechapelCompanionApp" */ = {
 			isa = XCConfigurationList;
