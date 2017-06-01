@@ -9,15 +9,29 @@
 /* Begin PBXBuildFile section */
 		853112C01EDF757100AC8E99 /* LocationType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853112BF1EDF757100AC8E99 /* LocationType.swift */; };
 		853112C61EDF78D200AC8E99 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853112C51EDF78D200AC8E99 /* Map.swift */; };
+		855C17F21EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 855C17F11EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests.swift */; };
 		857F6D981ED33B4800F8B0FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F6D971ED33B4800F8B0FB /* AppDelegate.swift */; };
 		857F6D9A1ED33B4800F8B0FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 857F6D991ED33B4800F8B0FB /* ViewController.swift */; };
 		857F6D9F1ED33B4900F8B0FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 857F6D9E1ED33B4900F8B0FB /* Assets.xcassets */; };
 		857F6DA21ED33B4900F8B0FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 857F6DA01ED33B4900F8B0FB /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		855C17F41EE07D92007380E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 857F6D8C1ED33B4200F8B0FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 857F6D931ED33B4300F8B0FB;
+			remoteInfo = LettersFromWhitechapelCompanionApp;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		853112BF1EDF757100AC8E99 /* LocationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationType.swift; sourceTree = "<group>"; };
 		853112C51EDF78D200AC8E99 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
+		855C17EF1EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LettersFromWhitechapelCompanionAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		855C17F11EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersFromWhitechapelCompanionAppTests.swift; sourceTree = "<group>"; };
+		855C17F31EE07D92007380E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		857F6D941ED33B4800F8B0FB /* LettersFromWhitechapelCompanionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LettersFromWhitechapelCompanionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857F6D971ED33B4800F8B0FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		857F6D991ED33B4800F8B0FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -27,6 +41,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		855C17EC1EE07D92007380E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		857F6D911ED33B4300F8B0FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -61,10 +82,20 @@
 			name = Views;
 			sourceTree = "<group>";
 		};
+		855C17F01EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				855C17F11EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests.swift */,
+				855C17F31EE07D92007380E3 /* Info.plist */,
+			);
+			path = LettersFromWhitechapelCompanionAppTests;
+			sourceTree = "<group>";
+		};
 		857F6D8B1ED33B4200F8B0FB = {
 			isa = PBXGroup;
 			children = (
 				857F6D961ED33B4800F8B0FB /* LettersFromWhitechapelCompanionApp */,
+				855C17F01EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests */,
 				857F6D951ED33B4800F8B0FB /* Products */,
 			);
 			sourceTree = "<group>";
@@ -73,6 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				857F6D941ED33B4800F8B0FB /* LettersFromWhitechapelCompanionApp.app */,
+				855C17EF1EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +126,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		855C17EE1EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 855C17F81EE07D92007380E3 /* Build configuration list for PBXNativeTarget "LettersFromWhitechapelCompanionAppTests" */;
+			buildPhases = (
+				855C17EB1EE07D92007380E3 /* Sources */,
+				855C17EC1EE07D92007380E3 /* Frameworks */,
+				855C17ED1EE07D92007380E3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				855C17F51EE07D92007380E3 /* PBXTargetDependency */,
+			);
+			name = LettersFromWhitechapelCompanionAppTests;
+			productName = LettersFromWhitechapelCompanionAppTests;
+			productReference = 855C17EF1EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		857F6D931ED33B4300F8B0FB /* LettersFromWhitechapelCompanionApp */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 857F6DA61ED33B4A00F8B0FB /* Build configuration list for PBXNativeTarget "LettersFromWhitechapelCompanionApp" */;
@@ -121,6 +171,12 @@
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Christopher Bonuel";
 				TargetAttributes = {
+					855C17EE1EE07D92007380E3 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 4L8HM32D5V;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 857F6D931ED33B4300F8B0FB;
+					};
 					857F6D931ED33B4300F8B0FB = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = 4L8HM32D5V;
@@ -142,11 +198,19 @@
 			projectRoot = "";
 			targets = (
 				857F6D931ED33B4300F8B0FB /* LettersFromWhitechapelCompanionApp */,
+				855C17EE1EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		855C17ED1EE07D92007380E3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		857F6D921ED33B4300F8B0FB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -159,6 +223,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		855C17EB1EE07D92007380E3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				855C17F21EE07D92007380E3 /* LettersFromWhitechapelCompanionAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		857F6D901ED33B4300F8B0FB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -172,6 +244,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		855C17F51EE07D92007380E3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 857F6D931ED33B4300F8B0FB /* LettersFromWhitechapelCompanionApp */;
+			targetProxy = 855C17F41EE07D92007380E3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		857F6DA01ED33B4900F8B0FB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -184,6 +264,34 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		855C17F61EE07D92007380E3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4L8HM32D5V;
+				INFOPLIST_FILE = LettersFromWhitechapelCompanionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gametime.LettersFromWhitechapelCompanionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LettersFromWhitechapelCompanionApp.app/LettersFromWhitechapelCompanionApp";
+			};
+			name = Debug;
+		};
+		855C17F71EE07D92007380E3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4L8HM32D5V;
+				INFOPLIST_FILE = LettersFromWhitechapelCompanionAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gametime.LettersFromWhitechapelCompanionAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LettersFromWhitechapelCompanionApp.app/LettersFromWhitechapelCompanionApp";
+			};
+			name = Release;
+		};
 		857F6DA41ED33B4A00F8B0FB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -306,6 +414,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		855C17F81EE07D92007380E3 /* Build configuration list for PBXNativeTarget "LettersFromWhitechapelCompanionAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				855C17F61EE07D92007380E3 /* Debug */,
+				855C17F71EE07D92007380E3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		857F6D8F1ED33B4200F8B0FB /* Build configuration list for PBXProject "LettersFromWhitechapelCompanionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
