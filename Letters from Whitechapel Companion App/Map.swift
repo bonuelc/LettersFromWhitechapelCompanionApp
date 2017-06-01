@@ -52,8 +52,12 @@ class Map {
     }
 }
 
-// MARK: - Helper Methods
+// MARK: - Helper Methods/Properties
 extension Map {
+    
+    var count: Int {
+        return locations.count
+    }
     
     subscript(index: Int) -> LocationType {
         // Map is one-based to mirror board game
