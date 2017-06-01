@@ -23,6 +23,27 @@ class Map {
         init(_ id: ID) {
             self.id = id
         }
+        
+        fileprivate lazy var circleNeighbors: [Circle] = {
+            // Breadth-First Search
+            var circleNeighbors: [Circle] = []
+            var neighbors = Queue<LocationType>()
+            self.visited = true
+            neighbors.enqueue(self)
+            
+            while let n = neighbors.dequeue() {
+                if let c = n as? Circle, c !== self {
+                    circleNeighbors.append(c)
+                } else {
+                    for nextDegreeNeighbor in n.neighbors where !nextDegreeNeighbor.visited {
+                        nextDegreeNeighbor.visited = true
+                        neighbors.enqueue(nextDegreeNeighbor)
+                    }
+                }
+            }
+            
+            return circleNeighbors
+        }()
     }
 
     fileprivate class Square: LocationType {
