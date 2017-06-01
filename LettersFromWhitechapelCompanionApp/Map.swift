@@ -38,6 +38,9 @@ class Map {
     
     // MARK: - Properties
     fileprivate(set) var locations: [LocationType] = []
+    private lazy var circles: [ID] = {
+        return self.locations.flatMap { $0 as? Circle }.map { $0.id }
+    }()
     private(set) var womanTokensPossibleStartingLocations: [ID] = [3, 21, 27, 65, 84, 147, 149, 158]
     static let shared = Map()
     
