@@ -10,7 +10,7 @@ import Foundation
 
 typealias ID = Int
 
-protocol LocationType: class {
+protocol LocationType: class, CustomStringConvertible {
     
     // MARK: - Properties
     var id: ID { get }
@@ -29,5 +29,12 @@ extension LocationType {
         // a.add(neighbor: b) is equivalent to b.add(neighbor: a)
         neighbors.append(neighbor)
         neighbor.neighbors.append(self)
+    }
+}
+
+// MARK: - CustomStringConvertible
+extension LocationType {
+    var description: String {
+        return "\(id): [" + neighbors.map { "\($0.id)" }.joined(separator: ", ") + "]"
     }
 }
