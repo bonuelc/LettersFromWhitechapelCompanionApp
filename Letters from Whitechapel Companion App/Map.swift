@@ -12,6 +12,7 @@ import Foundation
 class Map {
     
     // MARK: - Properties
+    fileprivate var locations: [LocationType] = []
     static let shared = Map()
     
     // MARK: - Init
