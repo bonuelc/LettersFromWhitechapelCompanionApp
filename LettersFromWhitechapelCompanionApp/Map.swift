@@ -17,6 +17,7 @@ class Map {
         // MARK: - Properties
         let id: ID
         var neighbors: [LocationType] = []
+        var visited = false
         
         // MARK: - Init
         init(_ id: ID) {
@@ -29,6 +30,7 @@ class Map {
         // MARK: - Properties
         let id: ID
         var neighbors: [LocationType] = []
+        var visited = false
         
         // MARK: - Init
         init(_ id: ID) {
