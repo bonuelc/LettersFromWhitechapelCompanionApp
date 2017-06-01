@@ -11,6 +11,31 @@ import Foundation
 // Singleton class
 class Map {
     
+    // MARK: - Internal Classes
+    fileprivate class Circle: LocationType {
+        
+        // MARK: - Properties
+        let id: ID
+        var neighbors: [LocationType] = []
+        
+        // MARK: - Init
+        init(_ id: ID) {
+            self.id = id
+        }
+    }
+
+    fileprivate class Square: LocationType {
+        
+        // MARK: - Properties
+        let id: ID
+        var neighbors: [LocationType] = []
+        
+        // MARK: - Init
+        init(_ id: ID) {
+            self.id = id
+        }
+    }
+    
     // MARK: - Properties
     fileprivate var locations: [LocationType] = []
     static let shared = Map()
