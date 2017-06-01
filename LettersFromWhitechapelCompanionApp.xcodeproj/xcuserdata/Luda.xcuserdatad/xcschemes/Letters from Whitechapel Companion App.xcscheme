@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "857F6D931ED33B4300F8B0FB"
-               BuildableName = "Letters from Whitechapel Companion App.app"
-               BlueprintName = "Letters from Whitechapel Companion App"
-               ReferencedContainer = "container:Letters from Whitechapel Companion App.xcodeproj">
+               BuildableName = "LettersFromWhitechapelCompanionApp.app"
+               BlueprintName = "LettersFromWhitechapelCompanionApp"
+               ReferencedContainer = "container:LettersFromWhitechapelCompanionApp.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "857F6D931ED33B4300F8B0FB"
-            BuildableName = "Letters from Whitechapel Companion App.app"
-            BlueprintName = "Letters from Whitechapel Companion App"
-            ReferencedContainer = "container:Letters from Whitechapel Companion App.xcodeproj">
+            BuildableName = "LettersFromWhitechapelCompanionApp.app"
+            BlueprintName = "LettersFromWhitechapelCompanionApp"
+            ReferencedContainer = "container:LettersFromWhitechapelCompanionApp.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -56,9 +56,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "857F6D931ED33B4300F8B0FB"
-            BuildableName = "Letters from Whitechapel Companion App.app"
-            BlueprintName = "Letters from Whitechapel Companion App"
-            ReferencedContainer = "container:Letters from Whitechapel Companion App.xcodeproj">
+            BuildableName = "LettersFromWhitechapelCompanionApp.app"
+            BlueprintName = "LettersFromWhitechapelCompanionApp"
+            ReferencedContainer = "container:LettersFromWhitechapelCompanionApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -75,9 +75,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "857F6D931ED33B4300F8B0FB"
-            BuildableName = "Letters from Whitechapel Companion App.app"
-            BlueprintName = "Letters from Whitechapel Companion App"
-            ReferencedContainer = "container:Letters from Whitechapel Companion App.xcodeproj">
+            BuildableName = "LettersFromWhitechapelCompanionApp.app"
+            BlueprintName = "LettersFromWhitechapelCompanionApp"
+            ReferencedContainer = "container:LettersFromWhitechapelCompanionApp.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

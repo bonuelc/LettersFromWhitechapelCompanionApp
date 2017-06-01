@@ -18,7 +18,7 @@
 /* Begin PBXFileReference section */
 		853112BF1EDF757100AC8E99 /* LocationType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationType.swift; sourceTree = "<group>"; };
 		853112C51EDF78D200AC8E99 /* Map.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Map.swift; sourceTree = "<group>"; };
-		857F6D941ED33B4800F8B0FB /* Letters from Whitechapel Companion App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Letters from Whitechapel Companion App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		857F6D941ED33B4800F8B0FB /* LettersFromWhitechapelCompanionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LettersFromWhitechapelCompanionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		857F6D971ED33B4800F8B0FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		857F6D991ED33B4800F8B0FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		857F6D9E1ED33B4900F8B0FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -72,7 +72,7 @@
 		857F6D951ED33B4800F8B0FB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				857F6D941ED33B4800F8B0FB /* Letters from Whitechapel Companion App.app */,
+				857F6D941ED33B4800F8B0FB /* LettersFromWhitechapelCompanionApp.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,9 +94,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		857F6D931ED33B4300F8B0FB /* Letters from Whitechapel Companion App */ = {
+		857F6D931ED33B4300F8B0FB /* LettersFromWhitechapelCompanionApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 857F6DA61ED33B4A00F8B0FB /* Build configuration list for PBXNativeTarget "Letters from Whitechapel Companion App" */;
+			buildConfigurationList = 857F6DA61ED33B4A00F8B0FB /* Build configuration list for PBXNativeTarget "LettersFromWhitechapelCompanionApp" */;
 			buildPhases = (
 				857F6D901ED33B4300F8B0FB /* Sources */,
 				857F6D911ED33B4300F8B0FB /* Frameworks */,
@@ -106,9 +106,9 @@
 			);
 			dependencies = (
 			);
-			name = "Letters from Whitechapel Companion App";
+			name = LettersFromWhitechapelCompanionApp;
 			productName = "Letters from Whitechapel Companion App";
-			productReference = 857F6D941ED33B4800F8B0FB /* Letters from Whitechapel Companion App.app */;
+			productReference = 857F6D941ED33B4800F8B0FB /* LettersFromWhitechapelCompanionApp.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -128,7 +128,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 857F6D8F1ED33B4200F8B0FB /* Build configuration list for PBXProject "Letters from Whitechapel Companion App" */;
+			buildConfigurationList = 857F6D8F1ED33B4200F8B0FB /* Build configuration list for PBXProject "LettersFromWhitechapelCompanionApp" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -141,7 +141,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				857F6D931ED33B4300F8B0FB /* Letters from Whitechapel Companion App */,
+				857F6D931ED33B4300F8B0FB /* LettersFromWhitechapelCompanionApp */,
 			);
 		};
 /* End PBXProject section */
@@ -306,7 +306,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		857F6D8F1ED33B4200F8B0FB /* Build configuration list for PBXProject "Letters from Whitechapel Companion App" */ = {
+		857F6D8F1ED33B4200F8B0FB /* Build configuration list for PBXProject "LettersFromWhitechapelCompanionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				857F6DA41ED33B4A00F8B0FB /* Debug */,
@@ -315,7 +315,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		857F6DA61ED33B4A00F8B0FB /* Build configuration list for PBXNativeTarget "Letters from Whitechapel Companion App" */ = {
+		857F6DA61ED33B4A00F8B0FB /* Build configuration list for PBXNativeTarget "LettersFromWhitechapelCompanionApp" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				857F6DA71ED33B4A00F8B0FB /* Debug */,
